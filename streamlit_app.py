@@ -27,4 +27,4 @@ rows = run_query("SELECT * FROM SCORES.CUSTOM_TURNOUT_SCORES_METADATA;")
 
 # Print results.
 for row in rows:
-    st.write(f"{row[0]} was built by {row[1]}:")
+    st.write(f"{row[0]} was built by {row[1]}")
