@@ -1,6 +1,6 @@
-# Welcome to Streamlit!
+# My first attempt at deploying a streamlit app that reads from Snowflake
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+Without a [.streamlit/secrets.toml](https://docs.streamlit.io/knowledge-base/tutorials/databases/snowflake) file, the app cannot connect to the database
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+[documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
