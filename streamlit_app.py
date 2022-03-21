@@ -23,7 +23,7 @@ def run_query(query):
         return cur.fetchall()
 
 
-rows = run_query("SELECT * MURMURATION.SCORES.CUSTOM_TURNOUT_SCORES_METADATA;")
+rows = run_query("SELECT * SCORES.CUSTOM_TURNOUT_SCORES_METADATA;")
 
 # Print results.
 for row in rows:
