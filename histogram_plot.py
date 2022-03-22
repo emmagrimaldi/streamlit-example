@@ -31,7 +31,7 @@ scores_array = np.asarray(rows)
 fig = plt.figure(figsize=(10, 5))
 n, bins, patches = plt.hist(scores_array, bins=50)
 plt.xlabel('Midterm General Score')
-plt.title('Histogram of random Scores (N=1,000)')
+st.title('Histogram of random Scores (N=1,000)')
 
 
 # Plot!
