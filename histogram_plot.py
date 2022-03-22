@@ -28,7 +28,7 @@ def run_query(query):
 rows = run_query("SELECT ts_tsmart_midterm_general_turnout_score FROM targetsmart_archive.tsdata_2022_02 limit 1000;")
 scores_array = np.asarray(rows)
 
-fig = plt.figure(figsize=(16, 16))
+fig = plt.figure(figsize=(10, 5))
 n, bins, patches = plt.hist(scores_array, bins=50)
 plt.xlabel('Midterm General Score')
 plt.title('Histogram of random Scores (N=1,000)')
