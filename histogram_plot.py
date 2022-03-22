@@ -25,6 +25,7 @@ def run_query(query):
 
 
 rows = run_query("SELECT ts_tsmart_midterm_general_turnout_score FROM targetsmart_archive.tsdata_2022_02 limit 1000;")
+print(rows)
 
 fig = plt.figure(figsize=(16,  6))
 n, bins, patches = plt.hist(rows['ts_tsmart_midterm_general_turnout_score'])
