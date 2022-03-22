@@ -28,3 +28,7 @@ rows = run_query("SELECT ts_tsmart_midterm_general_turnout_score FROM targetsmar
 
 fig = plt.figure(figsize=(16,  6))
 n, bins, patches = plt.hist(rows['ts_tsmart_midterm_general_turnout_score'])
+
+
+# Plot!
+st.plotly_chart(fig, use_container_width=True)
